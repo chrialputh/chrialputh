@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人网站</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        header {
+            background-color: #343a40;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        nav {
+            margin-top: 10px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.2em;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+        }
+
+        section {
+            margin: 20px 0;
+        }
+
+        h2 {
+            font-size: 2em;
+            color: #343a40;
+        }
+
+        p {
+            font-size: 1.1em;
+            line-height: 1.6;
+        }
+
+        footer {
+            background-color: #343a40;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        /* 响应式设计 */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2em;
+            }
+
+            nav a {
+                font-size: 1em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>欢迎来到我的个人网站</h1>
+        <nav>
+            <a href="#about">关于我</a>
+            <a href="#projects">项目</a>
+            <a href="#contact">联系</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <section id="about">
+            <h2>关于我</h2>
+            <p>我是一个热爱编程和设计的开发者，喜欢用技术来解决问题，创造有趣和实用的应用程序。</p>
+        </section>
+
+        <section id="projects">
+            <h2>我的项目</h2>
+            <p>这里展示了我正在进行的一些项目。每个项目都展示了我在前端和后端开发方面的技能。</p>
+        </section>
+
+        <section id="contact">
+            <h2>联系我</h2>
+            <p>如果你对我的项目感兴趣，或者想要合作，请通过以下方式联系我：</p>
+            <p>Email: example@example.com</p>
+        </section>
+    </div>
+
+    <footer>
+        <p>版权所有 © 2024 我的个人网站</p>
+    </footer>
+</body>
+</html>
